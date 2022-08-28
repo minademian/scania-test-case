@@ -6,6 +6,7 @@ div {
   border-width: 1px;
   font-size: 16px;
 }
+
 #dropdown-heading {
   display: flex;
   flex-direction: row;
@@ -13,9 +14,11 @@ div {
   align-items: baseline;
   cursor: pointer;
 }
+
 #dropdown-heading span {
   color: rgba(200, 200, 200, 0.8);
 }
+
 h3 {
   padding: 1em;
   color: #56657a;
@@ -28,9 +31,11 @@ ul {
   list-style: none;
   padding: 0;
 }
+
 ul li:nth-child(1) {
   border-top: 1px solid rgba(200, 200, 200, 1);
 }
+
 ul li {
   background: rgba(255, 255, 255, 1);
   border-right: 1px solid rgba(200, 200, 200, 0.5);
@@ -38,6 +43,7 @@ ul li {
   border-bottom: 1px solid rgba(200, 200, 200, 0.5);
   padding: 0.5em 1em;
 }
+
 li span {
   cursor: pointer;
   -webkit-margin-before: 0.3em;
