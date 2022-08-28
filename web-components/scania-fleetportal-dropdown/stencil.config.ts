@@ -1,10 +1,9 @@
 import { Config } from "@stencil/core";
-import { postcss } from "@stencil-community/postcss";
+
 import {
   angularOutputTarget,
   ValueAccessorConfig,
 } from "@stencil/angular-output-target";
-import autoprefixer from "autoprefixer";
 
 const angularValueAccessorBindings: ValueAccessorConfig[] = [];
 
@@ -23,7 +22,7 @@ export const config: Config = {
     },
     {
       type: "www",
-      serviceWorker: null, // disable service workers
+      serviceWorker: null,
     },
     angularOutputTarget({
       componentCorePackage: "@web-components/dist/components",
@@ -32,9 +31,5 @@ export const config: Config = {
       valueAccessorConfigs: angularValueAccessorBindings,
     }),
   ],
-  plugins: [
-    postcss({
-      plugins: [autoprefixer()],
-    }),
-  ],
+  plugins: [],
 };
