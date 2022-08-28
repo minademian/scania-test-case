@@ -1,27 +1,14 @@
-# ScaniaTestCase
+# Scania Test Case
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+The main Angular project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
-## Development server
+Once the application is installed and running, navigate to [the fleet portal landing page](http://localhost:4200/home).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## To Install the Application
 
-## Code scaffolding
+1. Run `npm install` in `scania-test-case` root.
+2. Run `npm install` and then `npm run build ` in `scania-test-case/web-components/scania-fleetportal-dropdown`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+   - The dropdown web component is automatically linked to the main Angular application. See the `src/libs` directory for how that's done.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Run `npm start` in `scania-test-case` root.
