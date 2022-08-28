@@ -1,0 +1,23 @@
+<header>
+  <h2>Fleet Portal</h2>
+  <img src="assets/img/scania.svg" />
+</header>
+<section>
+  <h1>Driver evaluation</h1>
+</section>
+<main>
+  <div id="dropdown-panel">
+    <scania-fleetportal-dropdown
+      placeholder="Select distance"
+      [items]="dropdownItems"
+      (toggleDropDown)="onToggle($event)"
+    ></scania-fleetportal-dropdown>
+    <p><a (click)="resetTable()">Reset</a></p>
+  </div>
+  <div id="table-view">
+    <stc-driver-table-view
+      [drivers]="drivers"
+      [filter]="filter"
+    ></stc-driver-table-view>
+  </div>
+</main>

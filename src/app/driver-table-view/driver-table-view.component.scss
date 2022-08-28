@@ -1,0 +1,23 @@
+:host {
+  table {
+    border-collapse: collapse;
+    font-size: 0.85em;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  thead {
+    background-color: #E0E2EB;
+    th {
+      width: 25%;
+      text-align: left;
+      vertical-align: middle;
+    }
+  }
+
+  tbody {
+    background-color: #fff;
+  }
+}

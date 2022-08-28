@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>Driver</th>
+      <th>Company</th>
+      <th>Distance</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let driver of drivers | tableFilter: filter">
+      <td>{{ driver.driver }}</td>
+      <td>{{ driver.company }}</td>
+      <td>{{ driver.distance }}</td>
+      <td>{{ driver.score }}</td>
+    </tr>
+  </tbody>
+</table>
