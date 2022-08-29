@@ -1,9 +1,17 @@
 import { Component, Prop, h, Event, EventEmitter, State } from "@stencil/core";
+import { IRangeSpec } from "./interfaces/range-spec.interface";
 
-export interface IRangeSpec {
-  value: string;
-  label: string;
-}
+// For local testing of component
+const testData = [
+  {
+    value: "less",
+    label: "<= 200.00km",
+  },
+  {
+    value: "more",
+    label: "> 200.00 km",
+  },
+];
 
 @Component({
   tag: "scania-fleetportal-dropdown",
@@ -25,10 +33,6 @@ export class ScaniaFleetPortalDropdown {
     this.toggleDropDown.emit({ range: item });
   }
 
-  /**
-   *
-   * @todo get SCSS compiling and rewrite css to use sass
-   */
   render() {
     return (
       <div>
