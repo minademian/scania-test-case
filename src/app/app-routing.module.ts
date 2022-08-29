@@ -4,6 +4,11 @@ import { FleetPortalComponent } from './fleet-portal/fleet-portal.component';
 
 const routes: Routes = [
   {
+    path: '*',
+    pathMatch: 'prefix',
+    redirectTo: 'home',
+  },
+  {
     path: 'home',
     component: FleetPortalComponent,
   },
