@@ -5,7 +5,7 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { IRangeSpec } from "./components/scania-fleetportal-dropdown/scania-fleetportal-dropdown";
+import { IRangeSpec } from "./components/scania-fleetportal-dropdown/interfaces/range-spec.interface";
 export namespace Components {
     interface ScaniaFleetportalDropdown {
         "items": Array<IRangeSpec>;
