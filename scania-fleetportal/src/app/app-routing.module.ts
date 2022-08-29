@@ -4,8 +4,8 @@ import { FleetPortalComponent } from './fleet-portal/fleet-portal.component';
 
 const routes: Routes = [
   {
-    path: '*',
-    pathMatch: 'prefix',
+    path: '',
+    pathMatch: 'full',
     redirectTo: 'home',
   },
   {
