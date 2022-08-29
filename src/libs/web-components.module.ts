@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { defineCustomElements } from '@web-components/scania-fleetportal-dropdown/loader';
+import { defineCustomElements } from '@web-components/scania-fleetportal-dropdown/dist/loader';
 import { ScaniaFleetportalDropdown } from './proxies';
 
 defineCustomElements(window);

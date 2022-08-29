@@ -9,7 +9,7 @@ import {
   NgZone,
 } from '@angular/core';
 import { ProxyCmp, proxyOutputs } from './angular-component-lib/utils';
-import { Components } from '@web-components/scania-fleetportal-dropdown/dist/components';
+import { Components } from '@web-components/scania-fleetportal-dropdown/';
 
 export declare interface ScaniaFleetportalDropdown
   extends Components.ScaniaFleetportalDropdown {
