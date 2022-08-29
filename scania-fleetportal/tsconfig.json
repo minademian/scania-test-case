@@ -24,7 +24,7 @@
       "dom"
     ],
     "paths": {
-      "@web-components/*": ["./web-components/*"],
+      "@web-components/*": ["../web-components/*"],
       "@core/*": ["./src/app/core/*"],
       "@data/*": ["./src/assets/data/*"]
    }

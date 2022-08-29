@@ -2,7 +2,7 @@ import { Component, Prop, h, Event, EventEmitter, State } from "@stencil/core";
 import { IRangeSpec } from "./interfaces/range-spec.interface";
 
 // For local testing of component
-const testData = [
+/* const testData = [
   {
     value: "less",
     label: "<= 200.00km",
@@ -11,7 +11,7 @@ const testData = [
     value: "more",
     label: "> 200.00 km",
   },
-];
+]; */
 
 @Component({
   tag: "scania-fleetportal-dropdown",

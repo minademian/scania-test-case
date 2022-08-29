@@ -28,7 +28,7 @@ export const config: Config = {
       componentCorePackage:
         "@web-components/scania-fleetportal-dropdown/dist/components",
       directivesProxyFile:
-        "./../../src/libs/scania-fleetportal-dropdown/proxies.ts",
+        "./../../scania-fleetportal/src/libs/scania-fleetportal-dropdown/proxies.ts",
       valueAccessorConfigs: angularValueAccessorBindings,
     }),
   ],
