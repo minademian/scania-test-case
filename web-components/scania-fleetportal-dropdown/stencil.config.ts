@@ -25,7 +25,8 @@ export const config: Config = {
       serviceWorker: null,
     },
     angularOutputTarget({
-      componentCorePackage: "@web-components/dist/components",
+      componentCorePackage:
+        "@web-components/scania-fleetportal-dropdown/dist/components",
       directivesProxyFile:
         "./../../src/libs/scania-fleetportal-dropdown/proxies.ts",
       valueAccessorConfigs: angularValueAccessorBindings,
